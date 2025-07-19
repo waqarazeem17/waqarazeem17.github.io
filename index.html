@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Waqar Azeem | Portfolio</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600;800&display=swap" rel="stylesheet">
+
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="dark">
+
+  <!-- ====== NAVBAR ====== -->
+  <header>
+    <div class="container nav-container">
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ====== HERO SECTION ====== -->
+  <section class="hero" data-aos="fade-up">
+    <div class="container">
+      <img src="images/me.jpg" class="profile-pic" alt="Waqar Azeem" />
+      <h2>Hello, I'm Waqar 👋</h2>
+      <p>A student, developer, and AI enthusiast.</p>
+    </div>
+  </section>
+
+<!-- ====== ABOUT ====== -->
+<section id="about" data-aos="fade-up">
+  <div class="container">
+    <h2>About Me</h2>
+    <p>As a dedicated undergraduate Artificial Intelligence student at Bahria University Karachi,
+      I am developing a strong foundation in multiple programming languages, including Java, Python, C++, 
+      and I have Practical Knowledge of Web Development, Database Management, Machine Learning and Data Analysis.
+       My academic journey is providing me with the knowledge and 
+      skills necessary for Problem-solving and System Design.
+      I love solving real-world problems using AI and full-stack development.</p>
+
+    <!-- Sub Navigation Buttons -->
+    <div class="sub-nav" data-aos="fade-up">
+      <button onclick="showSubSection('skills')">Skills</button>
+      <button onclick="showSubSection('experience')">Experience</button>
+      <button onclick="showSubSection('education')">Education</button>
+    </div>
+
+    <!-- Sub Sections -->
+    <div id="skills" class="sub-section">
+      <h3>Skills</h3>
+      <p>-Python</p> 
+      <p>-Machine Learning</p>
+      <p>-Web Development</p>
+      <p>-Database Management</p>
+      <p>-Data Analysis using Power BI</p>
+    </div>
+
+    <div id="experience" class="sub-section" style="display: none;">
+      <h3>Experience</h3>
+      <p>I have developed strong practical skills and I'm gaining experience through my academic projects and
+        personal initiatives. </p>
+        <p>Developed some Web applications, AI models and Power BI Dashboards.</p>
+    </div>
+
+    <div id="education" class="sub-section" style="display: none;">
+      <h3>Education</h3>
+      <p>Continue-- Bachelor of Science in Artificial Intelligence – Bahria University, Karachi</p>
+      <p>2021-2023: Intermediate – Bahria College Karsaz, Karachi</p>
+      <p>2019-2021: Matric – Bahria College Karsaz, Karachi</p>
+    </div>
+  </div>
+</section>
+
+
+  <!-- ====== PROJECTS ====== -->
+  <section id="projects" data-aos="fade-right">
+  <div class="container">
+    <h2>My Projects</h2>
+    <div class="project-grid">
+      
+      <a href="https://github.com/waqarazeem17/Pharmacy-Management-System" target="_blank" class="project-card" data-aos="zoom-in">
+        <img src="images/pharmacy.jpg" alt="Pharmacy-Management-System" class="project-img" />
+        <h3>Pharmacy-Management-System</h3>
+        <p>Console-based Pharmacy Management System built using C++, designed to automate pharmacy operations such as inventory control, medicine purchases, and prescription record-keeping.</p>
+      </a>
+
+      <a href="https://github.com/waqarazeem17/Transport-Management-System" target="_blank" class="project-card" data-aos="zoom-in" data-aos-delay="100">
+        <img src="images/transport.jpg" alt="Transport System" class="project-img" />
+        <h3>Transport Management System</h3>
+        <p>Flask + SQL Server app to manage buses, routes, drivers, and users.</p>
+      </a>
+
+      <a href="https://github.com/waqarazeem17/Health-Care-Chatbot" target="_blank" class="project-card" data-aos="zoom-in" data-aos-delay="200">
+        <img src="images/health.jpg" alt="Health Bot" class="project-img" />
+        <h3>AI Health Bot</h3>
+        <p>Predicts diseases using SVM and Decision Tree models with chat UI.</p>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+
+ <!-- ====== SERVICES ====== -->
+<section id="services" data-aos="zoom-in">
+  <div class="container">
+    <h2>My Services</h2>
+    <div class="service-grid">
+      <div class="service-card">
+        <img src="images/website.jpg" alt="Web Development">
+        <h3>Web Development</h3>
+        <p>Modern and responsive websites using HTML, CSS, Flask & JavaScript.</p>
+      </div>
+      <div class="service-card">
+        <img src="images/ai.jpg" alt="AI Model Deployment">
+        <h3>AI Model Deployment</h3>
+        <p>Machine learning models using Flask, APIs, and cloud tools.</p>
+      </div>
+      <div class="service-card">
+    <img src="images/power.jpg" alt="Power BI Dashboards">
+      <h3>Power BI Dashboards</h3>
+      <p>Interactive dashboards and insightful reports using Power BI.</p>
+      </div>
+      <div class="service-card">
+        <img src="images/flask.jpg" alt="Flask Apps">
+        <h3>Flask Apps</h3>
+        <p>Full-stack web applications using Flask, Jinja2, and SQL Server.</p>
+      </div>
+      <div class="service-card">
+        <img src="images/chatbot.jpg" alt="Chatbots">
+        <h3>Chatbots</h3>
+        <p>Conversational agents using Python, ML, and web interfaces.</p>
+      </div>
+      <div class="service-card">
+        <img src="images/sql.png" alt="SQL Integration">
+        <h3>SQL Server Integration</h3>
+        <p>Database systems with SQL Server and Flask.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- ====== CONTACT ====== -->
+<section id="contact" data-aos="fade-left">
+  <div class="container">
+    <h2>Contact Me</h2>
+
+    <!-- Contact Details (Left aligned) -->
+    <div style="margin-bottom: 25px;">
+      <p><strong>Email:</strong> <a href="mailto:waqarazeem4657@gmail.com" style="color:#00b4d8;">waqarazeem4657@gmail.com</a></p>
+      <p><strong>Phone:</strong> <a href="tel:+923101070263" style="color:#00b4d8;">+923101070263</a></p>
+
+      <!-- Social Media Icons (Left aligned) -->
+     <div class="social-links" style="margin: 10px 0;">
+  <a href="https://www.linkedin.com/in/waqarazeem17" target="_blank" style="margin-right: 15px;">
+    <img src="images/linkedin.png" alt="LinkedIn" width="45" />
+  </a>
+  <a href="https://github.com/waqarazeem17" target="_blank" style="margin-right: 15px;">
+    <img src="images/github.png" alt="GitHub" width="45" />
+  </a>
+  <a href="https://instagram.com/_waqar_azeem__" target="_blank" style="margin-right: 15px;">
+    <img src="images/instagram.jpg" alt="Instagram" width="45" />
+  </a>
+</div>
+
+
+
+      <!-- Download CV Button (Left aligned) -->
+      <a href="wcv.pdf" download style="display: inline-block; margin-top: 10px; background-color: #00b4d8; color: #0d0d0d; padding: 10px 20px; font-weight: 600; border-radius: 5px; text-decoration: none;">
+        Download CV
+      </a>
+    </div>
+
+
+    <!-- Contact Form -->
+<form class="contact-form" action="https://formsubmit.co/waqarazeem4657@gmail.com" method="POST" onsubmit="showThankYou(event)">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_template" value="table">
+
+  <input type="text" name="name" placeholder="Your Name" required />
+  <input type="email" name="email" placeholder="Your Email" required />
+  <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+
+  <button type="submit">Send</button>
+</form>
+
+<!-- Toast Notification -->
+<div id="thankYouToast" class="toast">
+  <span>✅ Thank you! Your message has been sent.</span>
+</div>
+
+
+  </div>
+</section>
+
+
+
+    <!-- ====== FOOTER ====== -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Waqar Azeem. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+
+  <!-- ===== Scroll to Top Button ===== -->
+  <button id="scrollToTopBtn" title="Go to top">⬆</button>
+
+
+  
+  <!-- ====== JS & AOS ====== -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
